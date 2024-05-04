@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: cursive;
+}
+body{
+    background-image: url(../img/FondoJuvedigital.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Cabecera{
+  /*  background-color: #096bb6; */
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    height: 85px;
+    padding: 5px 2%;
+}
+.Cabecera .LogoJuve{
+    cursor: pointer;
+    margin-right: auto;
+}
+.Cabecera .LogoJuve img{
+    height: 75px;
+    width: auto;
+    transition: all 0.3S;
+}
+.Cabecera .LogoJuve img:hover{
+    transform: scale(1.2);
+}
+.Cabecera .Navlist{
+    list-style: none;
+}
+.Cabecera .Navlist li{
+    display: inline-block;
+    padding: 10px  10px;
+    transition: all 0.3s;
+}
+.Cabecera .Navlist li:hover{
+    transform: scale(1.2);
+}
+.Cabecera .Navlist a{
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+.Cabecera .Navlist a:hover{
+    color: yellow;
+}
+.Cabecera .ContactosBoton button{
+    font-weight: 700;
+    color: white;
+    padding:  9px 25px;
+    background: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.Cabecera .ContactosBoton button:hover{
+    transform: scale(1.2);
+    background: blue;
+}

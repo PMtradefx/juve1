@@ -1,0 +1,18 @@
+.textoenvivo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 70px;
+}
+.textoenvivo a{
+    background-color: red;
+    width: max-content;
+    border-radius: 10px;
+    padding: 0  10px;
+}
+.reproductorweb{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
